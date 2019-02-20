@@ -6,7 +6,7 @@ metadata:
   namespace: prod
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.chart-image: semver:~0.4
+    flux.weave.works/tag.chart-image: semver:~1.0
 spec:
   releaseName: podinfo-prod
   chart:
@@ -14,5 +14,5 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: mrdummydoofy/podinfo:0.4.11
+    image: mrdummydoofy/podinfo:1.0.0
     replicaCount: 3
