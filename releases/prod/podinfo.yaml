@@ -14,5 +14,5 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: mrdummydoofy/podinfo:1.0.0
+    image: mrdummydoofy/podinfo:1.0.1
     replicaCount: 3
