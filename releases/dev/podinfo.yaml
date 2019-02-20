@@ -18,3 +18,8 @@ spec:
     replicaCount: 1
     hpa:
       enabled: false
+    resources:
+      limits:
+      requests:
+        cpu: 11m
+        memory: 16Mi
