@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: mrdummydoofy/podinfo:stg-9ij63o4c
+    image: mrdummydoofy/podinfo:stg-fviqxufz
     replicaCount: 2
     hpa:
       enabled: true
